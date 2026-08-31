@@ -6,10 +6,10 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Header scroll shadow
-  const header = document.getElementById('main-header');
+  const header = document.getElementById('main-header') || document.querySelector('header');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 20) {
-      header?.classList.add('is-sticky');
+      header?.classList.add('is-sticky', 'shadow-md');
     } else {
       header?.classList.remove('is-sticky');
     }
@@ -18,9 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // 2. Mobile Nav Toggle
   const mobileToggle = document.getElementById('mobile-toggle');
   const mobileNav = document.getElementById('mobile-nav');
-  mobileToggle?.addEventListener('click', () => {
-    mobileNav?.classList.toggle('hidden');
-  });
+  if (mobileToggle && mobileNav) {
+    mobileToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      mobileNav.classList.toggle('hidden');
+    });
+  }
 
   // 3. Simple FAQ Accordion
   const faqItems = document.querySelectorAll('.faq-item');

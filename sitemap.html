@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/jpeg" href="icon.jpg">
+  <link rel="apple-touch-icon" href="icon.jpg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website Sitemap | Water Damage Restoration Arvada</title>
-  <meta name="description" content="Complete website directory and sitemap for Water Damage Restoration Arvada, CO. Find all restoration service pages, service areas, and homeowner guides.">
+  <title>HTML Sitemap | Water Damage Restoration Arvada, CO</title>
+  <meta name="description" content="Explore all pages, services, localized service areas, and homeowner restoration guides on the Water Damage Restoration Arvada website.">
   <link rel="canonical" href="https://waterdamagerestorationarvada.com/sitemap.html">
 
   <!-- Tailwind CSS -->
@@ -34,10 +36,31 @@
   
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
-</head>
-<body class="bg-slate-50 text-slate-800 antialiased pb-16 md:pb-0">
 
-  <!-- TOP INFO BAR -->
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EmergencyService",
+    "@id": "https://waterdamagerestorationarvada.com/#organization",
+    "name": "Water Damage Restoration Arvada",
+    "url": "https://waterdamagerestorationarvada.com/sitemap.html",
+    "telephone": "(720) 735-8908",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8105 Ralston Rd",
+      "addressLocality": "Arvada",
+      "addressRegion": "CO",
+      "postalCode": "80002",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+</head>
+<body class="bg-white text-slate-800 antialiased pb-16 md:pb-0">
+
+  <!-- ==================== TOP INFO BAR ==================== -->
   <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
       <div class="flex items-center gap-4 text-center sm:text-left">
@@ -53,70 +76,72 @@
     </div>
   </div>
 
-  <!-- STICKY HEADER -->
+  <!-- ==================== STICKY HEADER ==================== -->
   <header id="main-header" class="sticky top-0 bg-white z-50 border-b border-slate-200 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-20">
         
+        <!-- Brand Logo with icon.jpg -->
         <a href="https://waterdamagerestorationarvada.com/" class="flex items-center gap-3">
-          <div class="w-11 h-11 bg-primary text-white flex items-center justify-center rounded-lg shadow-sm">
-            <i class="fa-solid fa-house-flood-water text-xl"></i>
-          </div>
+          <img src="icon.jpg" alt="Water Damage Restoration Arvada Logo" class="w-12 h-12 rounded-xl object-contain shadow-sm border border-slate-100" width="48" height="48">
           <div>
             <div class="font-extrabold text-lg sm:text-xl text-slate-900 leading-tight">Water Damage Restoration</div>
             <div class="text-xs text-primary font-bold tracking-wider uppercase">Arvada, CO</div>
           </div>
         </a>
 
+        <!-- Desktop Navigation -->
         <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
-          <a href="https://waterdamagerestorationarvada.com/" class="hover:text-primary">Home</a>
+          <a href="https://waterdamagerestorationarvada.com/" class="hover:text-primary transition-colors">Home</a>
           
           <!-- Services Dropdown -->
-          <div class="nav-dropdown py-2">
-            <button class="flex items-center gap-1 hover:text-primary">
+          <div class="nav-dropdown relative group py-2">
+            <button class="flex items-center gap-1.5 font-semibold text-slate-700 group-hover:text-primary transition-colors focus:outline-none">
               <span>Services</span>
-              <i class="fa-solid fa-chevron-down text-[10px] text-slate-400"></i>
+              <i class="fa-solid fa-chevron-down text-[10px] text-slate-400 group-hover:text-primary group-hover:rotate-180 transition-transform"></i>
             </button>
-            <div class="nav-dropdown-menu">
-              <a href="services/water-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Water Damage Restoration</a>
-              <a href="services/emergency-restoration-service-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Emergency Restoration</a>
-              <a href="services/commercial-water-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Commercial Water Damage</a>
-              <a href="services/flood-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Flood Damage Restoration</a>
-              <a href="services/fire-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Fire Damage Restoration</a>
-              <a href="services/commercial-fire-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Commercial Fire Damage</a>
-              <a href="services/mold-remediation-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Mold Remediation</a>
-              <a href="services/mold-removal-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Mold Removal</a>
+            <div class="nav-dropdown-menu hidden group-hover:block absolute top-full left-0 min-w-[270px] bg-white border border-slate-200 rounded-lg shadow-xl py-2 z-50">
+              <a href="https://waterdamagerestorationarvada.com/services/water-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Water Damage Restoration</a>
+              <a href="https://waterdamagerestorationarvada.com/services/emergency-restoration-service-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Emergency Restoration</a>
+              <a href="https://waterdamagerestorationarvada.com/services/commercial-water-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Commercial Water Damage</a>
+              <a href="https://waterdamagerestorationarvada.com/services/flood-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Flood Damage Restoration</a>
+              <a href="https://waterdamagerestorationarvada.com/services/fire-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Fire Damage Restoration</a>
+              <a href="https://waterdamagerestorationarvada.com/services/commercial-fire-damage-restoration-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Commercial Fire Damage</a>
+              <a href="https://waterdamagerestorationarvada.com/services/mold-remediation-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Mold Remediation</a>
+              <a href="https://waterdamagerestorationarvada.com/services/mold-removal-arvada.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Mold Removal</a>
             </div>
           </div>
 
           <!-- Service Area Dropdown -->
-          <div class="nav-dropdown py-2">
-            <button class="flex items-center gap-1 hover:text-primary">
-              <span>Service Area</span>
-              <i class="fa-solid fa-chevron-down text-[10px] text-slate-400"></i>
+          <div class="nav-dropdown relative group py-2">
+            <button class="flex items-center gap-1.5 font-semibold text-slate-700 group-hover:text-primary transition-colors focus:outline-none">
+              <span>Service Areas</span>
+              <i class="fa-solid fa-chevron-down text-[10px] text-slate-400 group-hover:text-primary group-hover:rotate-180 transition-transform"></i>
             </button>
-            <div class="nav-dropdown-menu">
-              <a href="https://waterdamagerestorationarvada.com/#service-areas" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Arvada, CO (HQ)</a>
-              <a href="service-areas/water-damage-restoration-broomfield.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Broomfield, CO</a>
-              <a href="service-areas/restoration-residential-services-denver.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Denver, CO</a>
-              <a href="service-areas/water-damage-restoration-westminster.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Westminster, CO</a>
-              <a href="service-areas/water-damage-restoration-lakewood.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Lakewood, CO</a>
-              <a href="service-areas/water-damage-restoration-golden.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Golden, CO</a>
-              <a href="service-areas/water-damage-restoration-wheat-ridge.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Wheat Ridge, CO</a>
+            <div class="nav-dropdown-menu hidden group-hover:block absolute top-full left-0 min-w-[270px] bg-white border border-slate-200 rounded-lg shadow-xl py-2 z-50">
+              <a href="https://waterdamagerestorationarvada.com/#service-areas" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Arvada, CO (HQ: 8105 Ralston Rd)</a>
+              <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-broomfield.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Broomfield, CO</a>
+              <a href="https://waterdamagerestorationarvada.com/service-areas/restoration-residential-services-denver.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Denver, CO</a>
+              <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-westminster.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Westminster, CO</a>
+              <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-lakewood.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Lakewood, CO</a>
+              <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-golden.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Golden, CO</a>
+              <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-wheat-ridge.html" class="block px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 hover:text-primary font-medium">Wheat Ridge, CO</a>
             </div>
           </div>
 
-          <a href="blog/index.html" class="hover:text-primary">Blog</a>
-          <a href="about.html" class="hover:text-primary">About Us</a>
+          <a href="https://waterdamagerestorationarvada.com/blog/index.html" class="hover:text-primary transition-colors">Blog</a>
+          <a href="https://waterdamagerestorationarvada.com/about.html" class="hover:text-primary transition-colors">About Us</a>
         </nav>
 
+        <!-- Header Phone Button & Mobile Hamburger -->
         <div class="flex items-center gap-3">
           <a href="tel:7207358908" class="hidden sm:flex items-center gap-2 bg-emergency hover:bg-emergency-dark text-white text-sm font-bold px-4 py-2.5 rounded-lg shadow-sm transition-colors">
             <i class="fa-solid fa-phone"></i>
             <span>(720) 735-8908</span>
           </a>
-          <button id="mobile-toggle" class="lg:hidden p-2 text-slate-600 hover:text-slate-900" aria-label="Toggle Menu">
-            <i class="fa-solid fa-bars text-xl"></i>
+          
+          <button id="mobile-toggle" class="lg:hidden p-2 text-slate-600 hover:text-slate-900 focus:outline-none" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars text-2xl"></i>
           </button>
         </div>
 
@@ -124,40 +149,47 @@
     </div>
   </header>
 
-  <!-- MOBILE MENU -->
-  <div id="mobile-nav" class="hidden lg:hidden bg-slate-900 text-white p-5 space-y-3">
-    <a href="https://waterdamagerestorationarvada.com/" class="block py-1 font-semibold text-sky-400">Home</a>
-    <div class="py-1 border-t border-slate-800">
-      <div class="font-bold text-xs uppercase text-slate-400 mb-1">Services</div>
-      <a href="services/water-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300">• Water Damage Restoration</a>
-      <a href="services/emergency-restoration-service-arvada.html" class="block py-1 text-sm text-slate-300">• Emergency Restoration</a>
-      <a href="services/commercial-water-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300">• Commercial Water Damage</a>
-      <a href="services/flood-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300">• Flood Damage Restoration</a>
-      <a href="services/fire-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300">• Fire Damage Restoration</a>
-      <a href="services/commercial-fire-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300">• Commercial Fire Damage</a>
-      <a href="services/mold-remediation-arvada.html" class="block py-1 text-sm text-slate-300">• Mold Remediation</a>
-      <a href="services/mold-removal-arvada.html" class="block py-1 text-sm text-slate-300">• Mold Removal</a>
+  <!-- ==================== MOBILE MENU ==================== -->
+  <div id="mobile-nav" class="hidden lg:hidden bg-slate-900 text-white p-5 space-y-3 shadow-2xl">
+    <a href="https://waterdamagerestorationarvada.com/" class="block py-1.5 font-semibold text-sky-400 hover:text-white transition-colors">Home</a>
+    <div class="py-2 border-t border-slate-800">
+      <div class="font-bold text-xs uppercase text-slate-400 mb-2 tracking-wider">Services</div>
+      <div class="space-y-1 pl-2">
+        <a href="https://waterdamagerestorationarvada.com/services/water-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Water Damage Restoration</a>
+        <a href="https://waterdamagerestorationarvada.com/services/emergency-restoration-service-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Emergency Restoration</a>
+        <a href="https://waterdamagerestorationarvada.com/services/commercial-water-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Commercial Water Damage</a>
+        <a href="https://waterdamagerestorationarvada.com/services/flood-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Flood Damage Restoration</a>
+        <a href="https://waterdamagerestorationarvada.com/services/fire-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Fire Damage Restoration</a>
+        <a href="https://waterdamagerestorationarvada.com/services/commercial-fire-damage-restoration-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Commercial Fire Damage</a>
+        <a href="https://waterdamagerestorationarvada.com/services/mold-remediation-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Mold Remediation</a>
+        <a href="https://waterdamagerestorationarvada.com/services/mold-removal-arvada.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Mold Removal</a>
+      </div>
     </div>
-    <div class="py-1 border-t border-slate-800">
-      <div class="font-bold text-xs uppercase text-slate-400 mb-1">Service Area</div>
-      <a href="service-areas/water-damage-restoration-broomfield.html" class="block py-1 text-sm text-slate-300">• Broomfield, CO</a>
-      <a href="service-areas/restoration-residential-services-denver.html" class="block py-1 text-sm text-slate-300">• Denver, CO</a>
-      <a href="service-areas/water-damage-restoration-westminster.html" class="block py-1 text-sm text-slate-300">• Westminster, CO</a>
-      <a href="service-areas/water-damage-restoration-lakewood.html" class="block py-1 text-sm text-slate-300">• Lakewood, CO</a>
-      <a href="service-areas/water-damage-restoration-golden.html" class="block py-1 text-sm text-slate-300">• Golden, CO</a>
-      <a href="service-areas/water-damage-restoration-wheat-ridge.html" class="block py-1 text-sm text-slate-300">• Wheat Ridge, CO</a>
+    <div class="py-2 border-t border-slate-800">
+      <div class="font-bold text-xs uppercase text-slate-400 mb-2 tracking-wider">Service Areas</div>
+      <div class="space-y-1 pl-2">
+        <a href="https://waterdamagerestorationarvada.com/#service-areas" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Arvada, CO (80002)</a>
+        <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-broomfield.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Broomfield, CO</a>
+        <a href="https://waterdamagerestorationarvada.com/service-areas/restoration-residential-services-denver.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Denver, CO</a>
+        <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-westminster.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Westminster, CO</a>
+        <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-lakewood.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Lakewood, CO</a>
+        <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-golden.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Golden, CO</a>
+        <a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-wheat-ridge.html" class="block py-1 text-sm text-slate-300 hover:text-white transition-colors">• Wheat Ridge, CO</a>
+      </div>
     </div>
-    <a href="blog/index.html" class="block py-1 font-semibold border-t border-slate-800">Blog</a>
-    <a href="about.html" class="block py-1 font-semibold">About Us</a>
-    <a href="tel:7207358908" class="block w-full py-3 bg-emergency text-white text-center font-bold rounded-lg mt-2">
-      <i class="fa-solid fa-phone mr-1.5"></i> Call (720) 735-8908
-    </a>
+    <div class="py-2 border-t border-slate-800 space-y-2">
+      <a href="https://waterdamagerestorationarvada.com/blog/index.html" class="block py-1 font-semibold text-slate-200 hover:text-white transition-colors">Blog</a>
+      <a href="https://waterdamagerestorationarvada.com/about.html" class="block py-1 font-semibold text-slate-200 hover:text-white transition-colors">About Us</a>
+      <a href="tel:7207358908" class="block w-full py-3 bg-emergency hover:bg-emergency-dark text-white text-center font-bold rounded-lg transition-colors shadow-md">
+        <i class="fa-solid fa-phone mr-2"></i> Call (720) 735-8908
+      </a>
+    </div>
   </div>
 
   <!-- BREADCRUMBS -->
   <div class="bg-white border-b border-slate-200 py-3">
     <div class="max-w-7xl mx-auto px-4 text-xs text-slate-500 flex items-center gap-2">
-      <a href="https://waterdamagerestorationarvada.com/" class="hover:text-primary">Home</a>
+      <a href="https://waterdamagerestorationarvada.com/" class="hover:text-primary"><i class="fa-solid fa-house mr-1"></i> Home</a>
       <i class="fa-solid fa-chevron-right text-[10px]"></i>
       <span class="text-slate-900 font-semibold">HTML Website Sitemap</span>
     </div>
@@ -170,7 +202,7 @@
       <div class="text-center max-w-2xl mx-auto mb-12">
         <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900">Website Sitemap</h1>
         <p class="text-sm text-slate-600 mt-2">
-          Navigate all active service pages, localized service areas, homeowner guides, and resources.
+          Navigate all active service pages, localized service areas, homeowner guides, and legal resources.
         </p>
       </div>
 
@@ -185,14 +217,14 @@
             <h2 class="text-lg font-bold text-slate-900">Restoration Services</h2>
           </div>
           <ul class="space-y-2.5 text-sm">
-            <li><a href="services/water-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Water Damage Restoration Arvada</a></li>
-            <li><a href="services/emergency-restoration-service-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Emergency Restoration Arvada</a></li>
-            <li><a href="services/commercial-water-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Commercial Water Damage Arvada</a></li>
-            <li><a href="services/flood-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Flood Damage Restoration Arvada</a></li>
-            <li><a href="services/fire-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Fire Damage Restoration Arvada</a></li>
-            <li><a href="services/commercial-fire-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Commercial Fire Damage Arvada</a></li>
-            <li><a href="services/mold-remediation-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Mold Remediation Arvada</a></li>
-            <li><a href="services/mold-removal-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Mold Removal Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/water-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Water Damage Restoration Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/emergency-restoration-service-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Emergency Restoration Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/commercial-water-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Commercial Water Damage Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/flood-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Flood Damage Restoration Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/fire-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Fire Damage Restoration Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/commercial-fire-damage-restoration-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Commercial Fire Damage Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/mold-remediation-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Mold Remediation Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/mold-removal-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Mold Removal Arvada</a></li>
           </ul>
         </div>
 
@@ -206,12 +238,12 @@
           </div>
           <ul class="space-y-2.5 text-sm">
             <li><a href="https://waterdamagerestorationarvada.com/#service-areas" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Arvada, CO (Headquarters 80002)</a></li>
-            <li><a href="service-areas/water-damage-restoration-broomfield.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Broomfield, CO</a></li>
-            <li><a href="service-areas/restoration-residential-services-denver.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Denver, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-westminster.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Westminster, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-lakewood.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Lakewood, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-golden.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Golden, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-wheat-ridge.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Wheat Ridge, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-broomfield.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Broomfield, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/restoration-residential-services-denver.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Denver, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-westminster.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Westminster, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-lakewood.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Lakewood, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-golden.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Golden, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-wheat-ridge.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Wheat Ridge, CO</a></li>
           </ul>
         </div>
 
@@ -224,14 +256,15 @@
             <h2 class="text-lg font-bold text-slate-900">Guides & Resources</h2>
           </div>
           <ul class="space-y-2.5 text-sm">
-            <li><a href="about.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> About Us (Our Team & Equipment)</a></li>
-            <li><a href="blog/index.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> All Blog Posts & Guides</a></li>
-            <li><a href="blog/what-to-do-when-pipe-bursts-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> What to Do When a Pipe Bursts in Arvada</a></li>
-            <li><a href="blog/how-long-does-water-damage-restoration-take.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> How Long Does Restoration Take?</a></li>
-            <li><a href="blog/signs-of-hidden-water-damage.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Signs of Hidden Water Damage</a></li>
-            <li><a href="blog/does-insurance-cover-water-damage-colorado.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Insurance Coverage in Colorado</a></li>
-            <li><a href="sitemap.xml" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2" target="_blank"><i class="fa-solid fa-code text-xs text-primary"></i> XML Sitemap (Search Engines)</a></li>
-            <li><a href="robots.txt" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2" target="_blank"><i class="fa-solid fa-robot text-xs text-primary"></i> Robots.txt File</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/about.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> About Us (Our Team & Equipment)</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/privacy.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Privacy Policy</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/blog/index.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> All Blog Posts & Guides</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/blog/what-to-do-when-pipe-bursts-arvada.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> What to Do When a Pipe Bursts in Arvada</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/blog/how-long-does-water-damage-restoration-take.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> How Long Does Restoration Take?</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/blog/signs-of-hidden-water-damage.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Signs of Hidden Water Damage</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/blog/does-insurance-cover-water-damage-colorado.html" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2"><i class="fa-solid fa-circle-chevron-right text-xs text-primary"></i> Insurance Coverage in Colorado</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/sitemap.xml" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2" target="_blank"><i class="fa-solid fa-code text-xs text-primary"></i> XML Sitemap (Search Engines)</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/robots.txt" class="text-slate-700 hover:text-primary font-medium flex items-center gap-2" target="_blank"><i class="fa-solid fa-robot text-xs text-primary"></i> Robots.txt File</a></li>
           </ul>
         </div>
 
@@ -257,7 +290,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
         <div>
           <div class="text-white font-bold text-base mb-3 flex items-center gap-2">
-            <i class="fa-solid fa-house-flood-water text-primary-light"></i>
+            <img src="icon.jpg" alt="Water Damage Restoration Arvada Logo" class="w-8 h-8 rounded-lg object-contain bg-white p-0.5" width="32" height="32">
             <span>Water Damage Arvada</span>
           </div>
           <p class="text-slate-400 leading-relaxed mb-3">
@@ -272,12 +305,12 @@
         <div>
           <div class="text-white font-bold text-sm mb-3">Services</div>
           <ul class="space-y-1.5">
-            <li><a href="services/water-damage-restoration-arvada.html" class="hover:text-white transition-colors">Water Damage Restoration</a></li>
-            <li><a href="services/emergency-restoration-service-arvada.html" class="hover:text-white transition-colors">Emergency Restoration</a></li>
-            <li><a href="services/commercial-water-damage-restoration-arvada.html" class="hover:text-white transition-colors">Commercial Water Damage</a></li>
-            <li><a href="services/flood-damage-restoration-arvada.html" class="hover:text-white transition-colors">Flood Damage Restoration</a></li>
-            <li><a href="services/fire-damage-restoration-arvada.html" class="hover:text-white transition-colors">Fire Damage Restoration</a></li>
-            <li><a href="services/mold-remediation-arvada.html" class="hover:text-white transition-colors">Mold Remediation</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/water-damage-restoration-arvada.html" class="hover:text-white transition-colors">Water Damage Restoration</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/emergency-restoration-service-arvada.html" class="hover:text-white transition-colors">Emergency Restoration</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/commercial-water-damage-restoration-arvada.html" class="hover:text-white transition-colors">Commercial Water Damage</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/flood-damage-restoration-arvada.html" class="hover:text-white transition-colors">Flood Damage Restoration</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/fire-damage-restoration-arvada.html" class="hover:text-white transition-colors">Fire Damage Restoration</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/services/mold-remediation-arvada.html" class="hover:text-white transition-colors">Mold Remediation</a></li>
           </ul>
         </div>
 
@@ -285,12 +318,12 @@
           <div class="text-white font-bold text-sm mb-3">Service Areas</div>
           <ul class="space-y-1.5">
             <li><a href="https://waterdamagerestorationarvada.com/#service-areas" class="hover:text-white transition-colors">Arvada, CO (80002)</a></li>
-            <li><a href="service-areas/water-damage-restoration-broomfield.html" class="hover:text-white transition-colors">Broomfield, CO</a></li>
-            <li><a href="service-areas/restoration-residential-services-denver.html" class="hover:text-white transition-colors">Denver, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-westminster.html" class="hover:text-white transition-colors">Westminster, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-lakewood.html" class="hover:text-white transition-colors">Lakewood, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-golden.html" class="hover:text-white transition-colors">Golden, CO</a></li>
-            <li><a href="service-areas/water-damage-restoration-wheat-ridge.html" class="hover:text-white transition-colors">Wheat Ridge, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-broomfield.html" class="hover:text-white transition-colors">Broomfield, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/restoration-residential-services-denver.html" class="hover:text-white transition-colors">Denver, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-westminster.html" class="hover:text-white transition-colors">Westminster, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-lakewood.html" class="hover:text-white transition-colors">Lakewood, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-golden.html" class="hover:text-white transition-colors">Golden, CO</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/service-areas/water-damage-restoration-wheat-ridge.html" class="hover:text-white transition-colors">Wheat Ridge, CO</a></li>
           </ul>
         </div>
 
@@ -298,10 +331,11 @@
           <div class="text-white font-bold text-sm mb-3">Company & Resources</div>
           <ul class="space-y-1.5">
             <li><a href="https://waterdamagerestorationarvada.com/" class="hover:text-white transition-colors">Home</a></li>
-            <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
-            <li><a href="blog/index.html" class="hover:text-white transition-colors">Blog</a></li>
-            <li><a href="sitemap.html" class="hover:text-white transition-colors">HTML Sitemap</a></li>
-            <li><a href="sitemap.xml" class="hover:text-white transition-colors">XML Sitemap</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/about.html" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/privacy.html" class="hover:text-white transition-colors">Privacy Policy</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/blog/index.html" class="hover:text-white transition-colors">Blog</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/sitemap.html" class="hover:text-white transition-colors">HTML Sitemap</a></li>
+            <li><a href="https://waterdamagerestorationarvada.com/sitemap.xml" class="hover:text-white transition-colors">XML Sitemap</a></li>
             <li><a href="tel:7207358908" class="text-red-400 font-bold hover:text-red-300">Call (720) 735-8908</a></li>
           </ul>
         </div>

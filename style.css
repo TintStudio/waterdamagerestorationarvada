@@ -51,20 +51,21 @@ header.is-sticky {
   position: relative;
 }
 .nav-dropdown-menu {
-  display: none;
+  display: none !important;
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 260px;
+  min-width: 270px;
   background: #ffffff;
   border: 1px solid var(--border);
   border-radius: 8px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   padding: 8px 0;
   z-index: 50;
 }
-.nav-dropdown:hover .nav-dropdown-menu {
-  display: block;
+.nav-dropdown:hover > .nav-dropdown-menu,
+.group:hover > .nav-dropdown-menu {
+  display: block !important;
 }
 
 /* Service Card Clean Hover */
