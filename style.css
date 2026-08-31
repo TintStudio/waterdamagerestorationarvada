@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Water Damage Restoration Arvada - Clean & Simple Stylesheet
+   Realistic, human-crafted local business styling
+   Domain: waterdamagerestorationarvada.com | Phone: (720) 735-8908
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap');
+
+:root {
+  --primary: #0f4c81;       /* Classic Navy */
+  --primary-dark: #0a355c;
+  --emergency: #c81e1e;     /* Solid Emergency Red */
+  --emergency-hover: #a51818;
+  --accent: #2563eb;
+  --dark: #1e293b;
+  --muted: #475569;
+  --light-bg: #f8fafc;
+  --border: #e2e8f0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1e293b;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Simple Sticky Header */
+header.is-sticky {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Simple Accordion */
+.faq-answer {
+  display: none;
+}
+.faq-item.active .faq-answer {
+  display: block;
+}
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+/* Simple Dropdown */
+.nav-dropdown {
+  position: relative;
+}
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 260px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 8px 0;
+  z-index: 50;
+}
+.nav-dropdown:hover .nav-dropdown-menu {
+  display: block;
+}
+
+/* Service Card Clean Hover */
+.service-box {
+  transition: all 0.2s ease;
+}
+.service-box:hover {
+  transform: translateY(-3px);
+  border-color: #93c5fd;
+  box-shadow: 0 12px 24px -6px rgba(15, 76, 129, 0.1);
+}
+
+/* Form Controls */
+.form-input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.form-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.12);
+}
+
+/* Mobile Sticky Bottom CTA Bar */
+.mobile-sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(15, 23, 42, 0.96);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 16px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .mobile-sticky-bar {
+    display: none !important;
+  }
+}
+
+/* Content Image Styling */
+.img-cover-rounded {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+/* Callout Box */
+.callout-box {
+  background: #f8fafc;
+  border-left: 4px solid var(--primary);
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
