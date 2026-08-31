@@ -128,6 +128,14 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Company Pages -->
+  <url>
+    <loc>https://waterdamagerestorationarvada.com/about.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- HTML Sitemap -->
   <url>
     <loc>https://waterdamagerestorationarvada.com/sitemap.html</loc>
