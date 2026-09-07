@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://waterdamagerestorationarvada.com/</loc>
+    <loc>https://waterdamagerestorationarvada.com</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -110,7 +110,7 @@
 
   <!-- Blog Pages -->
   <url>
-    <loc>https://waterdamagerestorationarvada.com/blog/</loc>
+    <loc>https://waterdamagerestorationarvada.com/blog</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
