@@ -38,6 +38,13 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 
+  <!-- LeadSmart Request Quotes Box Dependencies & Script -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://leads.leadsmartinc.com/css/request-quotes-box.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+  <script src="https://leads.leadsmartinc.com/js/embed/embed.js?apikey=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=slmnrzzk1&buttons=btn-success" type="text/javascript"></script>
+
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   [
@@ -517,59 +524,56 @@
 
         <!-- Right Column: WHY CALL US FIRST Card -->
         <div class="lg:col-span-5 sticky top-24">
-          <div class="bg-slate-900 text-white p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden">
-            <!-- Background Accent Glow -->
-            <div class="absolute -top-10 -right-10 w-40 h-40 bg-primary/30 rounded-full blur-3xl pointer-events-none"></div>
+          <div class="bg-slate-900 text-white p-6 sm:p-7 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden space-y-6">
             
-            <div class="relative z-10 space-y-6">
-              <div class="border-b border-slate-800 pb-4">
-                <div class="inline-flex items-center gap-2 bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-2">
-                  <i class="fa-solid fa-star text-xs"></i> Why We Stand Out
-                </div>
-                <h3 class="text-2xl sm:text-3xl font-black text-white tracking-tight uppercase">
-                  WHY CALL US FIRST
-                </h3>
-              </div>
-
-              <!-- List Points -->
-              <ul class="space-y-4">
-                <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-sky-400/50 transition-colors">
-                  <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
-                    <i class="fa-solid fa-house-chimney text-sm"></i>
-                  </div>
-                  <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">Serving Arvada homeowners and the greater Denver metro since day one</span>
-                </li>
-
-                <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-amber-400/50 transition-colors">
-                  <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
-                    <i class="fa-solid fa-clock-rotate-left text-sm"></i>
-                  </div>
-                  <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">1–2 hour response time across the entire Arvada area</span>
-                </li>
-
-                <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-emerald-400/50 transition-colors">
-                  <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
-                    <i class="fa-solid fa-file-circle-check text-sm"></i>
-                  </div>
-                  <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">Written moisture-clearance report on every single job</span>
-                </li>
-
-                <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-sky-400/50 transition-colors">
-                  <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
-                    <i class="fa-solid fa-receipt text-sm"></i>
-                  </div>
-                  <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">Transparent, written pricing — no hidden call-out fees</span>
-                </li>
-              </ul>
-
-              <!-- Bottom reassurance tag -->
-              <div class="pt-2 text-center border-t border-slate-800/80">
-                <p class="text-xs text-slate-400 flex items-center justify-center gap-2">
-                  <i class="fa-solid fa-shield-check text-sky-400"></i> Direct Insurance Billing &middot; 24/7 Available
-                </p>
-              </div>
-
+            <!-- Header -->
+            <div>
+              <h3 class="text-orange-500 font-extrabold text-sm sm:text-base tracking-widest uppercase">
+                WHY CALL US FIRST
+              </h3>
             </div>
+
+            <!-- List Points -->
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-sky-400/50 transition-colors">
+                <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                  <i class="fa-solid fa-house-chimney text-sm"></i>
+                </div>
+                <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">Serving Arvada homeowners and the greater Denver metro since day one</span>
+              </li>
+
+              <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-amber-400/50 transition-colors">
+                <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                  <i class="fa-solid fa-clock-rotate-left text-sm"></i>
+                </div>
+                <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">1–2 hour response time across the entire Arvada area</span>
+              </li>
+
+              <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-emerald-400/50 transition-colors">
+                <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                  <i class="fa-solid fa-file-circle-check text-sm"></i>
+                </div>
+                <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">Written moisture-clearance report on every single job</span>
+              </li>
+
+              <li class="flex items-start gap-3.5 bg-slate-800/60 border border-slate-700/60 p-3.5 rounded-xl hover:border-sky-400/50 transition-colors">
+                <div class="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                  <i class="fa-solid fa-receipt text-sm"></i>
+                </div>
+                <span class="text-sm sm:text-base text-slate-200 font-medium leading-snug">Transparent, written pricing — no hidden call-out fees</span>
+              </li>
+            </ul>
+
+            <!-- GET A FAST QUOTE Sub-Header -->
+            <div class="pt-4 border-t border-slate-800 text-center">
+              <div class="text-orange-500 font-extrabold text-xs sm:text-sm tracking-widest uppercase mb-4">
+                GET A FAST QUOTE
+              </div>
+
+              <!-- Request Quotes Box Widget -->
+              <div class="po-request-quotes-box" data-buttons="btn-success" data-category="0" data-affiliate_source="slmnrzzk1"></div>
+            </div>
+
           </div>
         </div>
 
@@ -1685,6 +1689,32 @@
           <i class="fa-solid fa-phone-volume animate-pulse"></i>
           <span>Call (720) 735-8908</span>
         </a>
+      </div>
+
+      <!-- Request a Fast Response / Quote Form Section -->
+      <div class="mt-12 bg-white rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-xl">
+        <div class="text-center max-w-2xl mx-auto mb-8">
+          <div class="inline-flex items-center gap-2 bg-primary/10 text-primary border border-primary/20 text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-3">
+            <i class="fa-solid fa-bolt-lightning text-amber-500"></i> Get Free Quote & Fast Dispatch
+          </div>
+          <h3 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+            Request a Fast Response in Arvada
+          </h3>
+          <p class="text-slate-600 text-sm sm:text-base mt-2 leading-relaxed">
+            Fill in your details below and a local water damage restoration specialist will get back to you the same day.
+          </p>
+        </div>
+
+        <!-- LeadSmart Form Embed -->
+        <div class="max-w-3xl mx-auto rounded-2xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50">
+          <iframe src="https://leads.leadsmartinc.com/?api_key=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=slmnrzzk1&funnel=3&category=0&step=1&buttons=btn-success" width="100%" height="600" frameborder="0" style="display: block; width: 100%; min-height: 600px; border: none;"></iframe>
+        </div>
+
+        <!-- Security Trust Note -->
+        <div class="mt-4 pt-3 flex items-center justify-center gap-2 text-xs sm:text-sm text-slate-500 font-medium text-center">
+          <i class="fa-solid fa-lock text-emerald-600"></i>
+          <span>Your details are handled securely and never sold.</span>
+        </div>
       </div>
 
     </div>
